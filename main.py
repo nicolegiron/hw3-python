@@ -10,5 +10,6 @@ def run():
   n = int(input("Enter an int: "))
   print(f"sum of digits of {n} is {digit_sum(n)}.")
 
+
 if __name__ == "__main__":
   run()
