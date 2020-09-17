@@ -2,7 +2,7 @@
 
 def digit_sum(n):
   if n == 0:
-    return  I DONT WANT TO RETURN ZERO
+    return
   else:
     return n % 10 + digit_sum(int(n/10))
 
